@@ -1,7 +1,7 @@
 import { IUsuario } from '../../model/IUsuario.interface';
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { UsuarioService } from './usuario.service';
-import { PoNotificationService, PoDynamicFormComponent, PoTableColumn, PoTableAction, PoDialogService } from '@portinari/portinari-ui';
+import { PoNotificationService, PoDynamicFormComponent, PoTableColumn, PoTableAction, PoDialogService } from '@po-ui/ng-components';
 import { Router } from '@angular/router';
 
 @Component({

@@ -2,7 +2,7 @@ import { Router } from '@angular/router';
 import { Usuario } from './../../model/Usuario';
 import { LoginService } from './login.service';
 import { Component, OnInit } from '@angular/core';
-import { PoPageLogin } from '@portinari/portinari-templates';
+import { PoPageLogin } from '@po-ui/ng-templates';
 
 @Component({
   selector: 'app-login',

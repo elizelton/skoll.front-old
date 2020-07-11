@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { PoNotificationService, PoDynamicFormComponent, PoDynamicFormField } from '@portinari/portinari-ui';
+import { PoNotificationService, PoDynamicFormComponent, PoDynamicFormField } from '@po-ui/ng-components';
 import { UsuarioService } from '../usuarios/usuario.service';
 import { NgForm } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';

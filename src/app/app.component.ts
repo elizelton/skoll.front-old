@@ -2,7 +2,7 @@ import { Usuario } from 'src/app/model/Usuario';
 import { LoginService } from './pages/login/login.service';
 import { Component } from '@angular/core';
 
-import { PoMenuItem, PoNotificationService, PoToolbarAction, PoToolbarProfile, PoDialogService } from '@portinari/portinari-ui';
+import { PoMenuItem, PoNotificationService, PoToolbarAction, PoToolbarProfile, PoDialogService } from '@po-ui/ng-components';
 import { Router } from '@angular/router';
 
 @Component({

@@ -7,8 +7,8 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { PoModule } from '@portinari/portinari-ui';
-import { PoTemplatesModule } from '@portinari/portinari-templates';
+import { PoModule } from '@po-ui/ng-components';
+import { PoTemplatesModule } from '@po-ui/ng-templates';
 import { PagesModule } from './pages/pages.module';
 import { AppRountingModule } from './app.routing.module';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';

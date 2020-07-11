@@ -1,8 +1,8 @@
 import { AuthGuard } from './../guards/auth.guard';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PoModule } from '@portinari/portinari-ui';
-import { PoTemplatesModule } from '@portinari/portinari-templates';
+import { PoModule } from '@po-ui/ng-components';
+import { PoTemplatesModule } from '@po-ui/ng-templates';
 import { Routes, RouterModule } from '@angular/router';
 
 import { UsuariosComponent } from './usuarios/usuarios.component';

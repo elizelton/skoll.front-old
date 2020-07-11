@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { PoModalComponent, PoTableColumn } from '@portinari/portinari-ui';
+import { PoModalComponent, PoTableColumn } from '@po-ui/ng-components';
 
 @Component({
   selector: 'app-home',
