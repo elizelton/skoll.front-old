@@ -11,12 +11,14 @@ import { PoModule } from '@portinari/portinari-ui';
 import { PoTemplatesModule } from '@portinari/portinari-templates';
 import { PagesModule } from './pages/pages.module';
 import { AppRountingModule } from './app.routing.module';
+import { NavMenuComponent } from './nav-menu/nav-menu.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    NavMenuComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
